@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css");
+
+body {
+    background-image: url("../images/253342.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 55px;
+    padding-left: 320px;
+}
+.form-group {
+    color: aliceblue;
+}
+
+.form-control {
+    width: 550px;
+    border-radius: 10px;
+}
+
+.form-check {
+    padding-left: 250px;
+}
+
+.biblioteca {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 600px;
+    font-size: 92px;
+    margin-top: 200px;
+}
