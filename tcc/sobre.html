@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Biblioteca AMEF</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #eeebe6;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eeebe6;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #eeebe6;
+            color: #000000;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        #texto {
+            text-align: left;
+            padding: 40px;
+            font-size: 20px;
+        }
+
+        #anima {
+            display: flex;
+
+        }
+
+        #anima a {
+            display: inline-block;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #anima a:hover {
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./resources/images/IMG-20231205-WA0046~2.jpg" width="230px">
+    </header>
+
+    <nav>
+      <a href="inicio.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="acervo.html">Acervo</a>
+      <a href="index.html">+</a>
+    </nav>
+
+      <section>
+        <div id="texto"><p>
+            <strong>
+                <h2>Sobre nossa biblioteca:</h2>
+            </strong><br>
+            Imagine uma biblioteca virtual como um mundo de histórias ao alcance dos seus dedos!<br>
+            Nela, você pode explorar universos infinitos, viajar no tempo e descobrir segredos escondidos entre as páginas digitais.<br>
+            Esqueça o silêncio austero das bibliotecas tradicionais, aqui, o único som é o clique suave do mouse enquanto você se <br>
+            aventura por obras que transcendem fronteiras. Uma biblioteca virtual é como um portal literário, onde a magia das palavras <br>
+            ganha vida no seu dispositivo. Desfrute de leituras sem limites, mergulhe em conhecimento e embarque em jornadas épicas,<br>
+            tudo isso sem sair do seu cantinho preferido. Bem-vindo ao futuro da leitura!</p>
+
+            <br><br><p>Desenvolvemos a biblioteca online do Américo Franco com o objetivo de <br>estimular um maior número de indivíduos a se envolverem na prática da leitura.<br> É evidente que, nos dias de hoje, as pessoas estão cada vez mais concentradas em dispositivos eletrônicos,<br>negligenciando a importância do hábito da leitura e como isso pode beneficiá-las em várias áreas da vida.<br> Assim, unindo o útil ao agradável, criamos esta biblioteca online para promover o acesso à leitura e cultivar esse hábito essencial.</p>
+
+           <br><br>Incrível, não é mesmo?<br>
+           Não perca a oportunidade de explorar este mundo mágico que você pode vivenciar simplesmente lendo!<br>Faça o download de um livro e aproveite. Boa leitura!</p><br>
+
+           <p><strong>
+                <h2>Entre em contato:</h2>
+            </strong><br>
+
+
+    <div id="anima">     
+    <a href="https://www.instagram.com/quebrada.informada23/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="./resources/social_media_logo_instagram_icon-icons.com_59062.png" width="100px">
+
+    <a href="https://www.facebook.com/pages/EE%20Am%C3%A9rico%20Franco/501611873243563/"><img src="./resources/social_media_logo_facebook_icon-icons.com_59059.png" width="100px">
+
+    <a href="https://wa.me/message/UWLEZLLNFLWHP1"><img src="./resources/social_media_logo_whatsapp_icon-icons.com_59066.png" width="100px"></div>
+
+         </div>        
+</section>
+  
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const links = document.querySelectorAll('nav a');
+    
+            links.forEach(link => {
+                link.addEventListener('mouseover', function() {
+                    link.style.color = '#778899';
+                });
+    
+                link.addEventListener('mouseout', function() {
+                    link.style.color = '#000000';
+                });
+            });
+        });
+    </script>
+
+    <br><footer>
+        &copy; 2023 bibliocode
+    </footer>
+
+</body>
+</html>

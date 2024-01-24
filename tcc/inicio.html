@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+         <title>Biblioteca AMEF</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #eeebe6;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #eeebe6;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            padding: 1em;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #eeebe6;
+            color: #000000;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="./resources/images/IMG-20231205-WA0046~2.jpg" width="230px">
+    </header>
+
+    <nav>
+        <a href="inicio.html">Início</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="acervo.html">Acervo</a>
+        <a href="index.html">+</a>
+      </nav>
+
+  <section id="home">
+    <h2>Bem-vindo à nossa biblioteca!</h2>
+    <p>Aqui está um pouco dos nossos desenvolvedores.</p>
+  </section>
+
+  <div class="card-group">
+    <div class="card">
+      <a href="https://instagram.com/ohmendz?igshid=OGQ5ZDc2ODk2ZA=="><img src="./resources/images/Design sem nome.png" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Gabriel Mendes</h5>
+        <p class="card-text">Trabalhou com as linguagens: HTML e CSS.</p>
+      </div>
+      <div class="card-footer">
+      </div>
+    </div>
+    <div class="card">
+        <a href="https://instagram.com/__imkarol?igshid=MmVlMjlkMTBhMg=="><img src="./Design sem nome (2).png" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Karoline Vitória</h5>
+        <p class="card-text">Trabalhou com a documentação e com CSS.</p>
+      </div>
+      <div class="card-footer">
+      </div>
+    </div>
+    <div class="card">
+        <a href="https://instagram.com/raywsa_?igshid=MmVlMjlkMTBhMg=="><img src="./Design sem nome (1).png" class="card-img-top" alt="..."></a>
+      <div class="card-body">
+        <h5 class="card-title">Rayssa Loiola</h5>
+        <p class="card-text">Trabalhou com as linguagens: HTML, CSS E JS.</p>
+      </div>
+      <div class="card-footer">
+      </div>
+    </div>
+  </div><br>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const links = document.querySelectorAll('nav a');
+
+        links.forEach(link => {
+            link.addEventListener('mouseover', function() {
+                link.style.color = '#778899';
+            });
+
+            link.addEventListener('mouseout', function() {
+                link.style.color = '#000000';
+            });
+        });
+    });
+</script>
+
+
+    <br><footer>
+        &copy; 2023 bibliocode
+    </footer>
+
+</body>
+</html>
